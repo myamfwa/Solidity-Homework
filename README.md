@@ -4,46 +4,43 @@
 
 ---
 
-## Table of Contents
-
-- [Homework Assignment](#Homework-Assignment)
-- [Blockchain Case Study](#Blockchain-Case-Study)
-- [POA Development Chain](#POA-Development-Chain)
-- [Installation Requirements](#Installation-Requirements)
-
----
-
 ### Homework Assignment
 
-Two part homework assignment:
-(1) Case study that analyzes how a Canadian FinTech blockchain company is using technology to solve a standing financial problem in Canada
-(2) Set up a testnet blockchain and send a test transaction
+Three part homework assignment:
+* **Level One** is an `AssociateProfitSplitter` contract. This will accept ether into the contract, and divide it evenly among associate-level employees. This will allow the human resources department to pay employees quickly and efficiently.
+
+* **Level Two** is a `TieredProfitSplitter` that will distribute different percentages of incoming ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and Bob gets 15%.
+
+* **Level Three** is a `DeferredEquityPlan` that models traditional company stock plans. This contract will automatically manage 1000 shares, with an annual distribution of 250 shares over four years for a single employee.
 
 ---
 
-### Blockchain Case Study
+## Files
 
-Canadian Blockchain company:
+* [`AssociateProfitSplitter.sol`](Codes/AssociateProfitSplitter.sol)
 
-Refer to the case study for the full [case study report](case_study.md).
+* [`TieredProfitSplitter.sol`](Codes/TieredProfitSplitter.sol)
+
+* [`DeferredEquityPlan.sol`](Codes/DeferredEquityPlan.sol)
 
 ---
 
-### POA Development Chain 
+### Screenshots 
 
 Created a custom testnet blockchain with nodes and completed a testnet transaction. 
 
-Refer to the [blockchain readme](custom_block_chain.md) to follow the screenshot flow of creating the blockchain and the attempt of the transaction.
+AssociateProfitSplitter
+
+![AssociateProfitSplitter](Images/AssociateProfitSplitter.JPG)
+
+AssociateProfitSplitter
+
+![TieredProfitSplitter](Images/TieredProfitSplitter.JPG)
+
+DeferredEquityPlan
+
+![DeferredEquityPlan](Images/DeferredEquityPlan.JPG)
  
 ---
 
-### Installation Requirements
-
-To successfully recreate the custom testnet blockchain and complete a testnet transaction with your own cryptowallet, the following installations and accounts are required:
-
-[MyCrypto-Desktop-App](https://download.mycrypto.com) 
-
-[Ethereum-Tools](https://geth.ethereum.org/downloads/) under "Stable Releases" and Geth & Tools 1.9.7.
-
-Gitbash to initialize nodes
 
