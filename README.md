@@ -43,4 +43,27 @@ DeferredEquityPlan
  
 ---
 
+### Errors Receiveds 
 
+During my project activity, I received 'Gas estimation - Failed gas estimation causes JSON-RPC error' that did not allow me to explain the testnet and share the testnet address.
+
+Submit Transaction request 
+
+![Error_message1](Images/Error_message1.JPG)
+
+Gas Estimation error
+
+![Error_message2](Images/Error_message2.JPG)
+
+--
+
+### Suggested Troubleshooting steps taken (no success)
+
+The closest troubleshooting information I could find (with assistance from the TAs) is the following link:
+
+https://github.com/MetaMask/metamask-extension/issues/7286
+
+The suggested steps however proved to either not work or were too advanced for my technical skills.
+* reset metamask
+* logging on and off from remix.ethereum.org 
+* reset ganache 
